@@ -1,5 +1,4 @@
- 
-    
+
     *{ 
         margin : 0;
         padding : 0;
@@ -311,6 +310,7 @@ footer a {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 40px 20px;
 }
 
 .text-box-pets {
@@ -451,7 +451,15 @@ footer a {
     .close-button {
       font-size: 24px;
     }
+     nav .fa-bars, nav .fa-times {
+    display: block;
+  }
+
+  nav .nav-links {
+    position: fixed;
+  }
 }
+
 
 
 .header-why-adopt {
@@ -584,6 +592,22 @@ footer a {
     font-size: 1rem;
     padding: 10px 15px;
   }
+  .why-adopt-image {
+  width: 100%;
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.why-adopt-image img {
+  width: 80%;
+  max-width: 350px;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
 }
 
 .header-testimonials {
