@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+   <link rel = "icon" href="images/kitty.png">
+  <title>Testimonials | Pet Haven</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section class="header-testimonials">
+    <nav>
+      <a href="index.html"><img src="images/kitty2.png" alt="Pet Haven Logo"/></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="pets.html">Pets</a></li>
+          <li><a href="why-adopt.html">Why Adopt?</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box-testimonials">
+      <h1>Our Happy Families</h1>
+      <p>Read how our adopters found their perfect companion and changed their lives.</p>
+    </div>
+  </section>
+
+  <section class="testimonials-content">
+    <h2>What Our Adopters Say</h2>
+    <div class="testimonial-grid">
+      <div class="testimonial-card">
+        <img src="images/dog5.jpg" alt="John and Racher with their dog" />
+        <p>"Adopting Max was one of the best decisions I’ve made. He’s my best friend and constant companion. Thank you, Pet Haven!"</p>
+        <h3>John & Max</h3>
+      </div>
+      <div class="testimonial-card">
+        <img src="images/cat3.jpg" alt="Emily with her cat" />
+        <p>"Luna has brought so much love and warmth to our home. I couldn’t imagine life without her. Thank you for making this possible!"</p>
+        <h3>Emily & Luna</h3>
+      </div>
+      <div class="testimonial-card">
+        <img src="images/goat3.jpg" alt="Rahul with his goat" />
+        <p>"Adopting Megha was easy and rewarding. She’s playful and loving, and I’m grateful to Pet Haven for bringing us together!"</p>
+        <h3>Rahul and Megha</h3>
+      </div>
+      <div class="testimonial-card">
+        <img src="images/dog6.jpg" alt="David with his dog" />
+        <p>"Bella is the most affectionate dog I’ve ever had. Adopting her was the best choice, and I’m thankful to Pet Haven!"</p>
+        <h3>David & Bella</h3>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Pet Haven | Follow us on  
+      <a href="#"><i class="fab fa-facebook"></i></a>  
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+    </p>
+  </footer>
+
+  <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+    function hideMenu() {
+      navLinks.style.right = "-200px";
+    }
+  </script>
+</body>
+</html>

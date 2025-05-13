@@ -1,0 +1,114 @@
+<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "icon" href="images/kitty.png">
+    <title> Home | Pet Haven </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+</head>
+
+    <section class="header">
+        <body>
+                <nav>
+                    <a href="index.html"><img src="images/kitty2.png"></a>
+                    <div class="nav-links" id="navLinks">
+                        <i class="fa fa-times" onclick="hideMenu()"></i>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="pets.html">Pets</a></li>
+                            <li><a href="why-adopt.html">Why Adopt?</a></li>
+                            <li><a href="testimonials.html">Testimonials</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+
+                    </div>
+                    <i class="fa fa-bars" onclick="showMenu()" ></i>
+                </nav>
+                <div class="text-box">
+                    <h1>Find your New Best Friend</h1>
+                    <p>We believe every pet deserves a caring home and every person deserves the joy of a loyal companion. That's why we connect loving pets with loving people—creating lifelong bonds filled with affection, trust, and happiness. We're here to make a heartwarming connection happen.</p>
+                    <a href="pets.html" class="header-btn">Browse Pets</a>
+                </div>
+    </section>
+    
+  <section class="services">
+    
+        <h1>Services We Provide</h1>
+        <p>Our Pet Support Services make adopting and caring for your new pet simple and stress-free.</p>
+        <div class="row">
+            <div class="service-col">
+                <h3>Adoption Guidance</h3>
+                <p>Not sure where to start? Our team is here to walk you through the entire adoption process—helping you choose the right pet and complete all the necessary steps with confidence.</p>
+            </div>
+            <div class="service-col">
+                <h3>Vet Checkups</h3>
+                <p>We ensure every pet is healthy and ready for their new home. From vaccinations to wellness exams, our trusted vets provide thorough medical care before and after adoption.</p>
+            </div>
+            <div class="service-col">
+                <h3>Pet Care Education</h3>
+                <p>We provide helpful resources and training tips to make pet ownership easier and more joyful. Learn how to care for, feed, and bond with your new best friend.</p>
+            </div>
+
+        </div>
+    </section>
+    <section class="featured-pets">
+    <h2>Meet Some of Our Pets</h2>
+    <div class="pet-cards">
+      <div class="pet">
+        <img src="images/dog2.jpg" alt="Max">
+        <h3>Max</h3>
+        <p>2-year-old Labrador who loves fetch and cuddles.</p>
+        <a href="pets.html">Adopt Me</a>
+      </div>
+      <div class="pet">
+        <img src="images/cat1.jpg" alt="Luna">
+        <h3>Luna</h3>
+        <p>Gentle Luna cat who enjoys napping in sunny spots.</p>
+        <a href="pets.html">Adopt Me</a>
+      </div>
+      <div class="pet">
+     <img src="images/rabbit1.jpg" alt="Thumper the rabbit">
+     <h3>Thumper</h3>
+     <p>A 1.5-year-old Holland Lop with a gentle heart and a curious spirit.</p>
+     <a href="pets.html">Adopt Me</a>
+      </div>
+    </div>
+  </section>
+  <section class="cta">
+    <h2>Ready to Make a Difference?</h2>
+    <div class="cta-buttons">
+      <a href="why-adopt.html">Why Adopt?</a>
+      <a href="testimonials.html">Get Involved</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Pet Haven | Follow us on  
+      <a href="#"><i class="fab fa-facebook"></i></a>  
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+
+    </p>
+  </footer>
+    <!-----Java Code for Menu ------>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu()
+        {
+          navLinks.style.right="0";
+        }
+        function hideMenu()
+        {
+          navLinks.style.right="-200px";
+        }
+    </script>
+</body>   
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel = "icon" href="images/kitty.png">
+  <title>Contact Us | Pet Haven</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section class="header-contact">
+    <nav>
+      <a href="index.html"><img src="images/kitty2.png" alt="Pet Haven Logo"/></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="pets.html">Pets</a></li>
+          <li><a href="why-adopt.html">Why Adopt?</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box-contact">
+      <h1>Get In Touch</h1>
+      <p>We would love to hear from you! <br>Contact us at pethaven@gmail.com<br> Contact through Phone at:  +92 444 7777 8888<br> Feel free to reach out to ask any question or to learn about our cause. <br>  Sincerely, Pet Haven Family</p>
+    </div>
+  </section>
+
+  <section class="contact-form">
+    <h2>Contact Form</h2>
+    <form action="#" method="post">
+      <div class="form-row">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+      </div>
+      <div class="form-row">
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      </div>
+      <div class="form-row">
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" placeholder="Write your message here" required></textarea>
+      </div>
+      <button type="submit" class="btn-submit">Send Message</button>
+    </form>
+  </section>
+
+ 
+
+  <footer>
+    <p>&copy; 2025 Pet Haven | Follow us on  
+      <a href="#"><i class="fab fa-facebook"></i></a>  
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+    </p>
+  </footer>
+
+  <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+    function hideMenu() {
+      navLinks.style.right = "-200px";
+    }
+  </script>
+</body>
+</html>

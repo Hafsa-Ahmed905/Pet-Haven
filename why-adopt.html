@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel = "icon" href="images/kitty.png">
+  <title>Why Adopt? | Pet Haven</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section class="header-why-adopt">
+    <nav>
+      <a href="index.html"><img src="images/kitty2.png" alt="Pet Haven Logo"/></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="pets.html">Pets</a></li>
+          <li><a href="why-adopt.html">Why Adopt?</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box-why-adopt">
+      <h1>Why Adopt?</h1>
+      <p>Adopting a pet means saving a life and gaining a loyal friend.</p>
+    </div>
+  </section>
+
+  <section class="why-adopt-content">
+    <div class="why-adopt-info">
+      <h2>  Reasons to Adopt </h2>
+      <p>Adopting a pet from a shelter not only saves a life but helps you find the perfect companion for your family.<br> Shelters are filled with loving pets that need a home and a chance to share their unconditional love with you.</p>
+      <ul>
+        <li>Save lives and reduce animal homelessness.</li>
+        <li>Adopt a loving pet that is often already trained.</li>
+        <li>Give a pet a second chance at happiness.</li>
+        <li>Adoption is a fulfilling and rewarding experience.</li>
+      </ul>
+      <a href="pets.html" class="cta-btn">See Available Pets</a>
+    </div>
+    <div class="why-adopt-image">
+      <img src="images/hamster2.jpg" alt="Cute Animal" />
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Pet Haven | Follow us on  
+      <a href="#"><i class="fab fa-facebook"></i></a>  
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+    </p>
+  </footer>
+
+  <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+    function hideMenu() {
+      navLinks.style.right = "-200px";
+    }
+  </script>
+</body>
+</html>
