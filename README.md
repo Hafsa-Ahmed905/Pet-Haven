@@ -37,6 +37,16 @@ A responsive web platform connecting loving pets with caring families. Browse ad
 Simply open this link 
 https://pethaven-adopt.netlify.app/
 
-## Deployment
+## 📸 Screenshots
+
+### Home Page
+![Home Page](screenshots/home.png)
+
+### Dashboard
+![Dashboard](screenshots/AvailablePets.png)
+
+### Login Page
+![Login](screenshots/Testimonials.png)
+
 
 Deployed on Netlify with continuous deployment from GitHub.
