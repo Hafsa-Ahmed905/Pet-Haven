@@ -42,11 +42,11 @@ https://pethaven-adopt.netlify.app/
 ### Home Page
 ![Home Page](screenshots/home.png)
 
-### Dashboard
-![Dashboard](screenshots/AvailablePets.png)
+### Explore Pets
+![Available Pets Page](screenshots/AvailablePets.png)
 
-### Login Page
-![Login](screenshots/Testimonials.png)
+### Testimonials Page
+![Testimonials](screenshots/Testimonials.png)
 
 
 Deployed on Netlify with continuous deployment from GitHub.
